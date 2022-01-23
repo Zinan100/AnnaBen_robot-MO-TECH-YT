@@ -1,7 +1,4 @@
-from tg_bot import LOAD, NO_LOAD, LOGGER
-
-
-def __list_all_modules():
+Mdef __list_all_modules():
     from os.path import dirname, basename, isfile
     import glob
     # This generates a list of modules in this folder for the * in __main__ to work.
